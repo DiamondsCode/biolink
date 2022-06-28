@@ -1,0 +1,44 @@
+@font-face {
+    font-family: derk;
+    src: url(derk.otf);
+  }
+* {
+    margin: 0;
+    font-family: derk;
+    font-weight: 100;
+    color: white;
+}
+
+body {
+    background-color: 1F2932;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin-top: 23vh;
+    border-radius: 50%;
+    padding-top: 1vh;
+}
+
+.link {
+    background-color: #5353c2;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 30vh;
+    margin-top: 10px;
+}
+
+div:hover {
+    background-color: #3c3c8c;
+}
+
+a {
+    text-decoration: none;
+}
